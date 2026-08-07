@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+hailo-env/
+env/
+*.egg-info/
+
+# ---- Datasets & raw captures ----
+datasets/
+data/raw/
+data/roboflow_export*/
+*.roboflow/
+
+# ---- Enrolled face data (privacy-sensitive — never commit) ----
+face_dataset/
+enrolled_faces/
+*.lbph
+face_model.*
+
+# ---- Trained model artifacts (large binaries) ----
+*.pt
+*.pth
+*.onnx
+*.har
+*.hef
+runs/
+weights/
+Vosk-model*/
+vosk-model*/
+
+# ---- Logs & runtime state (may contain personal data) ----
+access_log.csv
+inventory_log.csv
+status.json
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Streamlit / misc caches ----
+.streamlit/
+*.cache
