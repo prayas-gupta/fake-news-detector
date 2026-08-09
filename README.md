@@ -1,12 +1,12 @@
 # 📰 Fake News Classifier
 
-A machine learning project that classifies news articles as **real** or **fake** based on their textual content, built as part of a Machine Learning course project (BTech Data Science and Engineering, Second Year, Section B).
+A machine learning project that classifies news articles as **real** or **fake** based on their textual content, built as part of a Machine Learning course project (BTech Data Science and Engineering).
 
-**Authors:** Pattabhi Rama (230968033), Prayas Gupta (230968236)
+**Authors:** Prayas Gupta (230968236)
 
 ## Overview
 
-This project trains and compares multiple machine learning models to detect fake news using TF-IDF vectorized text features. It also includes a simple [Streamlit](https://streamlit.io/) web app for interactive predictions.
+This project trains and compares multiple machine learning models to detect fake news using TF-IDF vectorized text features. It also includes a simple Streamlit web app for interactive predictions.
 
 ## Project Workflow
 
